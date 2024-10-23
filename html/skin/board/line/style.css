@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+
+/** Notice Box **/
+.board-notice	{ max-width: 430px; padding: 20px; margin: 20px auto 30px; text-align: center;}
+
+#page_board_content .theme-box {padding: 0 5px;margin-bottom:1px;}
+#page_board_content input, #page_board_content select, #page_board_content .ui-btn, #page_board_content .ui-btn.point,#page_board_content .pg_wrap .pg_page {height:24px;line-height:22px;}
+#page_board_content .pg_wrap .pg_page {border: 0 none; background:none; color:inherit;padding:0 2px; font-size:12px;}
+#page_board_content .pg_wrap .pg_page:before {font-size:12px;}
+
+.ui-text-area{ position:relative; padding-right:60px; box-sizing:border-box;}
+.ui-text-area button {position:absolute;right:0;top:0;width:60px;}
+
+.ui-option					{ clear: both; }
+
+ .adm-box { margin-bottom:5px;text-align:right;margin-right:5px;}
+
+#page_board_content .ui-top {position:relative;padding:5px 5px 0; box-sizing:border-box;}
+.ui-top .search-box	{ display:inline-block;position:relative;width:40%;margin-bottom: 5px; padding-right:24px;vertical-align:top;text-align:right;box-sizing:border-box;} 
+.ui-top .search-box form {display:inline-block;}
+.ui-top .search-box input {width:95%;}
+.ui-top .search-box button.ui-btn {width:24px;height:24px;line-height:22px;padding:0;position:absolute;right:0;top:0;}
+
+.ui-top .ui-write-area {display:inline-block;margin-bottom: 5px;  width:60%;vertical-align:top;}
+
+.ui-write-box				{ position:relative; padding-left:24px; padding-right:0; } 
+.ui-write-box p				{ position:relative; height:24px;width:0;overflow:hidden; box-sizing:border-box;}
+
+.ui-write-box.update p, .ui-write-box p.on {width:100%;height:auto; padding-right:60px;}
+.ui-write-box .write_open.ui-btn.point	{position:absolute;left:0;top:0;display:inline-block;width:24px;height:24px;line-height:22px;padding:0;margin:0;}
+.ui-write-box.update .write_open.ui-btn.point {display:none;}
+
+.ui-text-area.ui-write-box button		{ position:absolute;width:60px;top:0;right:0;}   
+
+.ui-text-area.ui-write-box.update {padding-left:0;}
+.ui-text-area.ui-write-box.update p{ position:relative; padding-right:120px; }
+.ui-text-area.ui-write-box.update p button {position:absolute;right:60px;top:1px;width:60px;}
+.ui-text-area.ui-write-box.update p a {position:absolute;right:0;top:1px;width:60px;}
+
+.ui-memo-list					{ position: relative; clear: both;  } 
+.ui-memo-list hr.line			{ margin:0; }
+.ui-memo-list li:last-child hr.line	{display:none;}
+.ui-memo-list li li:last-child hr.line	{display:block;}
+.ui-memo-list li					{ position: relative; } 
+.ui-memo-list li strong		{ font-weight:normal; }
+.ui-memo-list li em			{ font-style: normal;display:inline-block;text-align:center; width:14px;} 
+.ui-memo-list li .date		{ display:inline-block;vertical-align:middle;width:73px;text-align:center; } 
+
+#page_board_content .ui-memo-list li .write_open.secret.ui-btn {margin:2px 5px; height:20px;line-height:18px;padding:0 8px;}
+.ui-memo-list li .pass_in{display:inline-block;vertical-align:middle;width:0;white-space:nowrap;overflow:hidden;}
+.ui-memo-list li .pass_in input{border:0 none;background:none;width:100px;}
+#page_board_content .ui-memo-list li .pass_in button {padding:0 5px;width:50px;height:20px;line-height:18px;margin:2px;}
+.ui-memo-list li .pass_in.on {width:160px;}
+
+.content-area	{position:relative;padding-right:50px;line-height:20px; }
+.content-area .control {display:inline-block; position:absolute; right:0;top:0;font-size:12px;}
+.content-area .control a{display:inline-block;width:15px;text-align:center;vertical-align:middle;}
+
+.ui-memo-list .no-data			{ text-align: center; line-height: 100px; }
+.bo_fx {padding:5px;}
+.bo_fx .chkall {float:left;} 
+
+.content-area .con {word-break:break-all;}
+
+/* 리플 색상 */
+.comment-content span {color:#aaa;}
+
+@media all and (max-width:480px) {
+	.content-area {padding-right:0;}
+	.content-area .con {display:block;padding-left:18px;}
+}
+
+@media all and (max-width:350px) {
+	.ui-top .search-box,.ui-top .ui-write-area {width:100%;padding-top:30px;}
+	.ui-top .search-box  {position:absolute;top:0;right:0;height:24px;width:100%;}
+	.ui-top .search-box form{ width:100%;}
+	.ui-top .search-box input {position:absolute;top:0;left:5px;right:48px;}
+	.ui-top .search-box a{right:5px;}
+	#wr_name,#wr_password		{  width:100%;}
+}
