@@ -2,6 +2,7 @@
 
 :: 게시판 기본파일 ::
 html > bbs > write_update.php 수정
+
 html > bbs > write.php 수정
 
 :: 스킨파일 ::
